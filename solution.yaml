@@ -1,0 +1,10 @@
+apiVersion: solution.sap/v1
+kind: Solution
+
+metadata:
+  name: feedback-sentiment-classifier-b8d18
+  version: 1.0.0
+  description: AI agent that classifies feedback sentiment as positive, negative, or neutral
+
+assets:
+  - ref: ./assets/feedback-sentiment-classifier-agent/asset.yaml
